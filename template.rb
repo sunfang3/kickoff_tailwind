@@ -10,11 +10,11 @@ def source_paths
 end
 
 def add_gems
-  gem 'devise', '~> 4.8', '>= 4.8.1'
-  gem 'friendly_id', '~> 5.4', '>= 5.4.2'
+  gem 'devise', '~> 4.9', '>= 4.9.4'
+  gem 'friendly_id', '~> 5.5', '>= 5.5.1'
   gem 'cssbundling-rails'
   gem 'name_of_person'
-  gem 'sidekiq', '~> 6.5', '>= 6.5.4'
+  gem 'sidekiq', '~> 7.3', '>= 7.3.2'
   gem 'stripe'
 end
 
